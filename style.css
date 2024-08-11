@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+   font-family: 'inter', sans-serif;
+   background: linear-gradient(45deg, #ff6b6b, #feca57);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+}
+
+.container {
+   background: linear-gradient(135deg, #2c3e50, #4a69bd);
+   border-radius: 20px;
+   padding: 30px;
+   color: white;
+   max-width: 1000px;
+   width: 100%;
+   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 30px;
+}
+
+.poe-logo {
+   width: 40px;
+   height: auto;
+}
+
+hav a {
+   color: #a5b1c2;
+   text-decoration: none;
+   margin-left: 20px;
+   font-size: 0.9em;
+}
+
+.download-btn {
+   background: #4a69bd;
+   color: white;
+   border: none;
+   padding: 8px 15px;
+   border-radius: 20px;
+   font-size: 0.9em;
+   cursor: pointer;
+}
+
+h1 {
+   text-align: center;
+   font-size: 2.5em;
+   margin-bottom: 10px;
+}
+
+h1 span {
+   color: #feca57;
+}
+
+.subtitle {
+   text-align: center;
+   font-size: 1.2em;
+   margin-bottom: 30px;
+   color: #a5b1c2;
+}
+
+.pricing-cards {
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+}
+
+.card {
+   background: rgba(255, 255, 255, 0.1);
+   border-radius: 15px;
+   padding: 30px;
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.card.popular {
+   background: rgba(255, 255, 255, 0.15);
+   position: relative;
+}
+
+.popular-tag {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   background: #4a69bd;
+   color: white;
+   padding: 5px 10px;
+   border-radius: 20px;
+   font-size: 0.8em;
+}
+
+.plan-name {
+   font-size: 1.5em;
+   margin-bottom: 10px;
+   color: #feca57;
+}
+
+.plan-description {
+   font-size: 0.9em;
+   color: #a5b1c2;
+   margin-bottom: 20px;
+}
+
+.price {
+   background: rgba(255, 255, 255, 0.2);
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 25px;
+   font-size: 1em;
+   cursor: pointer;
+   margin-bottom:15px;
+   font-weight: bold;
+}
+
+.btn {
+   background: rgba(255, 255, 255, 0.2);
+   color: white;
+   border: none;
+   width: 100%;
+   border-radius: 25px;
+   font-size: 1em;
+   cursor: pointer;
+   transition: background 0.3s;
+   margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   line-height: 1.2;
+}
+
+.btn:hover {
+   transform: scale(1.05);
+}
+
+.popular .btn {
+   background: #feca57;
+   color: #2c3e50;
+}
+
+.features {
+   list-style-type: none;
+   padding: 0;
+   margin-bottom: 0;
+   text-align: left;
+   width: 100%;
+}
+
+.features li {
+   margin-bottom: 10px;
+   display: flex;
+   align-items: center;
+   color: #a5b1c2;
+}
+
+.features li {
+   margin-bottom: 10px;
+   display: flex;
+   align-items: center;
+   color: #a5b1c2;
+}
+
+.features li::before {
+   content: "•";
+   color: #4a69bd;
+   font-size: 1.5em;
+   margin-right: 10px;
+}
